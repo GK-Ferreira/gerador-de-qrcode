@@ -1,6 +1,6 @@
 import { useState } from "react"
 import QRCode from "react-qr-code"
-import QRCodeLink, { toDataURL } from 'qrcode';
+import QRCodeLink from 'qrcode';
 
 function App() {
 const [link,setLink] = useState('');

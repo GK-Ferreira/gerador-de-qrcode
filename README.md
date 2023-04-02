@@ -1,0 +1,1 @@
+Gerador de qr code utilizando react.js
