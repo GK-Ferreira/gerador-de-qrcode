@@ -11,9 +11,9 @@ const setURl = (e) => {
   handleGenerate(e.target.value);
 }
 const handleGenerate = (linkurl) => {
-  QRCodeLink = toDataURL(linkurl,{
+  QRCodeLink.toDataURL(linkurl,{
     width:600,
-    margin:3
+    margin:3,
   },function(err,url){
     setQrCodeLink(url);
   })
